@@ -9,6 +9,6 @@ pyright==1.1.380
 numdoclint==0.1.9
 mysqlclient==2.2.4
 python-dotenv==1.0.1
-django=stubs==5.0.4
+django-stubs==5.0.4
 django-tidb==5.0.0
 bandit==1.7.9
