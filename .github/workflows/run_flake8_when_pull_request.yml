@@ -1,0 +1,15 @@
+name: flake8
+on:
+  pull_request:
+    types: [opened, synchronize]
+jobs:
+  RunFlake8:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup the Python dependencies
+        uses: ./.github/actions/setup_py_dependencies
+      - name: Run the flake8 command
+        run: python manage.py run_flake8
