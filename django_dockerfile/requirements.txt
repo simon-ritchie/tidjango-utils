@@ -1,0 +1,14 @@
+Django==4.1.13
+isort==5.13.2
+pytest==8.3.3
+autoflake==2.3.1
+black==24.8.0
+flake8==7.1.1
+mypy==1.11.2
+pyright==1.1.380
+numdoclint==0.1.9
+mysqlclient==2.2.4
+python-dotenv==1.0.1
+django-stubs==5.0.4
+django-tidb==5.0.0
+bandit==1.7.9

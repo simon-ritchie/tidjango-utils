@@ -1,0 +1,12 @@
+version: "3.1"
+
+services:
+  tidjango_serverless_utils:
+    build: "./django_dockerfile/"
+    volumes:
+      - "./:/mnt/tidjango-serverless-utils"
+    image: "tidjango_serverless_utils"
+    container_name: "tidjango_serverless_utils"
+    ports:
+      - "8000:8000"
+    command: /bin/sh -c "while true; do sleep 10; done"
