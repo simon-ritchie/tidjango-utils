@@ -37,6 +37,8 @@ INSTALLED_APPS = [
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
+    "tidjango_serverless_utils",
+    "tidjango_serverless_utils_dev",
 ]
 
 MIDDLEWARE = [
