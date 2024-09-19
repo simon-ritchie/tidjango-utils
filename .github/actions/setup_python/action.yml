@@ -1,0 +1,12 @@
+name: setup_py_dependencies
+description: Setup Python dependencies
+runs:
+  using: composite
+  steps:
+    - name: Setup Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.12
+    - name: Install Python dependencies
+      run: pip install -r django_dockerfile/requirements.txt
+      shell: bash
