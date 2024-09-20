@@ -28,6 +28,7 @@ def run_command_with_no_shell(*, command: str) -> str:
     output : str
         The output of the command.
     """
+    _info_logger.info(f"Running command: $ {command}")
     command_: list[str] = shlex.split(command)
     complete_process: sp.CompletedProcess = sp.run(
         command_,
