@@ -37,6 +37,7 @@ def run_command_with_no_shell(*, command: str) -> str:
     )
     output: str = complete_process.stdout.decode()
     output = output.strip()
+    print(output)
     return output
 
 
