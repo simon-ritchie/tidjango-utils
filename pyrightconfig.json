@@ -1,0 +1,5 @@
+{
+    "exclude": [
+        "tidjango_serverless_utils/migrations/"
+    ]
+}
