@@ -11,7 +11,7 @@ from django.core.management.base import BaseCommand
 
 from tidjango_serverless_utils_dev.management.commands import command_utils
 
-MYPY_COMMAND = "mypy ."
+MYPY_COMMAND: str = "mypy ."
 
 
 class Command(BaseCommand):
