@@ -11,7 +11,7 @@ from django.core.management.base import BaseCommand
 
 from tidjango_serverless_utils_dev.management.commands import command_utils
 
-PYRIGHT_COMMAND = "pyright ./"
+PYRIGHT_COMMAND: str = "pyright ./"
 
 
 class Command(BaseCommand):

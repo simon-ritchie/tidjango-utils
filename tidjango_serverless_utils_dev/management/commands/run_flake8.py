@@ -10,7 +10,7 @@ from django.core.management.base import BaseCommand
 
 from tidjango_serverless_utils_dev.management.commands import command_utils
 
-FLAKE8_COMMAND = "flake8 ."
+FLAKE8_COMMAND: str = "flake8 ."
 
 
 class Command(BaseCommand):
