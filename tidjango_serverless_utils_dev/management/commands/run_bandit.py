@@ -37,5 +37,5 @@ def run_bandit() -> None:
     """
     output: str = command_utils.run_command_with_no_shell(command=BANDIT_COMMAND)
     results: list[Any] = json.loads(output).get("results", [])
-    if not results:
+    if results:
         raise BanditError(f"Errors occurred during Bandit command execution:\n{output}")
