@@ -1,0 +1,21 @@
+version: 2
+updates:
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    ignore:
+      - dependency-name: "Django"
+        versions: ["<=4.1.13"]
+    groups:
+      dependencies:
+        patterns:
+          - '*'
+  - package-ecosystem: 'github-actions'
+    directory: '/'
+    schedule:
+      interval: 'weekly'
+    groups:
+      dependencies:
+        patterns:
+          - '*'
