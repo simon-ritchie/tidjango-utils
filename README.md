@@ -2,6 +2,7 @@
 [![mypy](https://github.com/simon-ritchie/tidjango-serverless-utils/actions/workflows/run_mypy_when_pull_request.yml/badge.svg)](https://github.com/simon-ritchie/tidjango-serverless-utils/actions/workflows/run_mypy_when_pull_request.yml)
 [![Pyright](https://github.com/simon-ritchie/tidjango-serverless-utils/actions/workflows/run_pyright_when_pull_request.yml/badge.svg)](https://github.com/simon-ritchie/tidjango-serverless-utils/actions/workflows/run_pyright_when_pull_request.yml)
 [![numdoclint](https://github.com/simon-ritchie/tidjango-serverless-utils/actions/workflows/run_numdoclint_when_pull_request.yml/badge.svg)](https://github.com/simon-ritchie/tidjango-serverless-utils/actions/workflows/run_numdoclint_when_pull_request.yml)
+[![Bandit](https://github.com/simon-ritchie/tidjango-serverless-utils/actions/workflows/run_bandit_when_pull_request.yml/badge.svg)](https://github.com/simon-ritchie/tidjango-serverless-utils/actions/workflows/run_bandit_when_pull_request.yml)
 
 # tidjango-serverless-utils
 
