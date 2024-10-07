@@ -5,7 +5,7 @@ autoflake==2.3.1
 black==24.8.0
 flake8==7.1.1
 mypy==1.11.2
-pyright==1.1.382.post1
+pyright==1.1.383
 numdoclint==0.1.9
 mysqlclient==2.2.4
 python-dotenv==1.0.1
